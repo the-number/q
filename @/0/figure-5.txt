@@ -1,0 +1,12 @@
+import zlib
+import numpy as np
+from qiskit import QuantumCircuit, execute, Aer
+c = QuantumCircuit(2,2)
+c.h(0)
+c.cx(0,1)
+c.measure([0,1],[0,1])
+s = Aer.get_backend('qasm_simulator')
+j = execute(c, s, shots=1000)
+r = j.result()
+counts = r.get_counts(c)
+print("\nTotal count for 00 and 11 are:", counts)
