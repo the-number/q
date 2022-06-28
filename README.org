@@ -1,5 +1,6 @@
 # 20220628 (C) Gunter Liszewski -*- mode: org; -*-
 * About Quantum Algorithm Implementations
+[[https://doi.org/10.1145/3517340]]
 ** A first example
 given as figure 5 in the paper 'Quantum Algorithm Implementations for Beginners'.
 The aim, here, is to see and feel the quantum computer simulator.
