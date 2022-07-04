@@ -3,3 +3,5 @@
 ** A first example
 given as figure 5 in the paper 'Quantum Algorithm Implementations for Beginners'.
 The aim, here, is to see and feel the quantum computer simulator.
+* A Note on GeoGebra
+<iframe src="https://www.geogebra.org/notes/kzp5jydq?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
